@@ -1,0 +1,46 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Cypress
+cypress/videos/
+cypress/screenshots/
+cypress/downloads/
+cypress/logs/
+cypress/reports/
+
+# Avoid uploading environment files or sensitive configs
+.env
+.env.*
+
+# macOS / Windows
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# Coverage reports
+coverage/
+.nyc_output/
+
+# Logs
+logs/
+*.log
+
+# Compiled output
+dist/
+build/
+
+# Git temporary files
+*.swp
+*.swo
+*.bak
+
+# Cypress cache (optional)
+.cypress_cache/
+
+# IDEs/Tools
+.idea/
